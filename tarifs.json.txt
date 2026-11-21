@@ -1,0 +1,63 @@
+{
+  "categories": [
+    {
+      "nom": "Plomberie",
+      "prestations": [
+        {
+          "nom": "Recherche de fuite simple",
+          "prix": 100
+        },
+        {
+          "nom": "Débouchage de canalisation",
+          "prix": 120
+        },
+        {
+          "nom": "Réparation de fuite d’eau",
+          "prix": 110
+        },
+        {
+          "nom": "Remplacement de robinet",
+          "prix": 90
+        }
+      ]
+    },
+    {
+      "nom": "Serrurerie",
+      "prestations": [
+        {
+          "nom": "Ouverture de porte",
+          "prix": 90
+        },
+        {
+          "nom": "Ouverture de porte fermée à clé",
+          "prix": 150
+        },
+        {
+          "nom": "Remplacement de serrure",
+          "prix": 130
+        },
+        {
+          "nom": "Remplacement de cylindre",
+          "prix": 100
+        }
+      ]
+    },
+    {
+      "nom": "Vitrerie",
+      "prestations": [
+        {
+          "nom": "Remplacement de simple vitrage",
+          "prix": 120
+        },
+        {
+          "nom": "Remplacement de double vitrage",
+          "prix": 180
+        },
+        {
+          "nom": "Sécurisation après bris de glace",
+          "prix": 150
+        }
+      ]
+    }
+  ]
+}
