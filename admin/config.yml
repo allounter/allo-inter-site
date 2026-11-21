@@ -42,3 +42,29 @@ collections:
                     value_type: "int"
                     min: 0
                     step: 1
+          
+          - label: "Frais de déplacement (€)"
+            name: "frais_deplacement"
+            widget: "number"
+            value_type: "int"
+            default: 60
+            min: 0
+
+          - label: "Majoration soir et week-end (%)"
+            name: "majoration_soir_weekend"
+            widget: "number"
+            value_type: "int"
+            default: 50
+            min: 0
+
+          - label: "Majoration nuit et jours fériés (%)"
+            name: "majoration_nuit_feries"
+            widget: "number"
+            value_type: "int"
+            default: 100
+            min: 0
+
+          - label: "Fournitures en supplément"
+            name: "fournitures_supplement"
+            widget: "boolean"
+            default: true
