@@ -1,0 +1,44 @@
+
+backend:
+  name: github
+  repo: allounter/allo-inter-site
+  branch: main
+
+locale: fr
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "gestion_tarifs"
+    label: "Prestations et tarifs"
+    files:
+      - name: "tarifs"
+        label: "Tarifs ALLO INTER"
+        file: "tarifs.json"
+        format: "json"
+        fields:
+          - label: "Catégories"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.nom}}"
+            fields:
+              - label: "Nom de la catégorie"
+                name: "nom"
+                widget: "string"
+
+              - label: "Prestations"
+                name: "prestations"
+                widget: "list"
+                summary: "{{fields.nom}}"
+                fields:
+                  - label: "Nom de la prestation"
+                    name: "nom"
+                    widget: "string"
+
+                  - label: "Prix à partir de (€)"
+                    name: "prix"
+                    widget: "number"
+                    value_type: "int"
+                    min: 0
+                    step: 1
