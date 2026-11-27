@@ -63,6 +63,10 @@
         {
           "nom": "Remplacement de cylindre",
           "prix": 100
+        },
+        {
+          "nom": "Extraction de clé cassée",
+          "prix": 90
         }
       ]
     },
