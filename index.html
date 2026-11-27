@@ -38,10 +38,19 @@
 .beacon{font-size:clamp(15px,2vw,22px);gap:14px;margin-top:42px}
 .beacon .lamp{width:23px;height:23px}
 @media(max-width:800px){
- .top{grid-template-columns:72px 1fr 72px;grid-template-rows:auto auto;padding:14px 8px;gap:5px}
- .top-beacon{width:68px;height:42px;gap:3px;padding:5px 4px;border-radius:12px}
+ .top {
+  grid-template-columns: 100px minmax(0, 1fr) 100px;
+  grid-template-rows: auto auto;
+  padding: 14px 8px;
+  gap: 5px;
+}
+
+.top-beacon{width:95px;height:52px;gap:3px;padding:5px 4px;border-radius:12px}
+  
+.top-beacon .lamp{width:23px;height:23px;border-width:1px}
+  
  .top-beacon:after{bottom:-5px;height:5px}
- .top-beacon .lamp{width:16px;height:16px;border-width:1px}
+ ..top-beacon .lamp{width:23px;height:23px;border-width:1px}
  .top-info{font-size:12px;line-height:1.3}
  .top-contact{grid-column:1/-1;grid-row:2;font-size:14px;gap:12px}
  .nav{padding:15px 5%;min-height:88px;gap:10px}
