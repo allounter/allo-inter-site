@@ -19,7 +19,10 @@
 .top-beacon .lamp{width:34px;height:34px;opacity:.25;border-width:2px}
 .top-beacon .lamp.blue{animation:beaconPulse .9s infinite}
 .top-beacon .lamp.white{animation:beaconPulse .9s infinite .18s}
-.top-beacon .lamp.red{animation:beaconPulse .9s infinite .36s}
+.top-beacon .lamp.red{animation:beaconPulse .9s infinite .36s}.top {
+  border-bottom: 7px solid transparent;
+  border-image: linear-gradient(to right, #0055A4 0%, #0055A4 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #EF4135 66.66%, #EF4135 100%) 1;
+}
 .nav{padding:22px 4%;min-height:112px}
 .brandmark{width:76px;height:70px;font-size:28px;border-radius:15px}
 .brandname{font-size:clamp(20px,3vw,30px)}
