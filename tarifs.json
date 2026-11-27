@@ -59,5 +59,9 @@
         }
       ]
     }
-  ]
+  ],
+  "frais_deplacement": 60,
+  "majoration_soir_weekend": 50,
+  "majoration_nuit_feries": 100,
+  "fournitures_supplement": true
 }
