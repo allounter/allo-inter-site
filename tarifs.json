@@ -67,6 +67,26 @@
         {
           "nom": "Extraction de clé cassée",
           "prix": 90
+        },
+        {
+          "nom": "Ouverture de porte claquée",
+          "prix": 90
+        },
+        {
+          "nom": "Remplacement de serrure 3 points",
+          "prix": 180
+        },
+        {
+          "nom": "Remplacement de Verrou",
+          "prix": 100
+        },
+        {
+          "nom": "Mise en sécurité après effraction",
+          "prix": 150
+        },
+        {
+          "nom": "Réparation de serrure bloquée",
+          "prix": 110
         }
       ]
     },
