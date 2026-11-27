@@ -22,6 +22,10 @@
         {
           "nom": "Débouchage de WC",
           "prix": 110
+        },
+        {
+          "nom": "Réparation de chasse d’eau",
+          "prix": 90
         }
       ]
     },
