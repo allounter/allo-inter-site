@@ -26,6 +26,22 @@
         {
           "nom": "Réparation de chasse d’eau",
           "prix": 90
+        },
+        {
+          "nom": "Remplacement de siphon",
+          "prix": 80
+        },
+        {
+          "nom": "Réparation de fuite sous évier",
+          "prix": 100
+        },
+        {
+          "nom": "Remplacement de flexible",
+          "prix": 75
+        },
+        {
+          "nom": "Débouchage d’évier",
+          "prix": 100
         }
       ]
     },
